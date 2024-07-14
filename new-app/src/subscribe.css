@@ -1,0 +1,36 @@
+.section__subscribe {
+  background: url(images/subscribe-bg.png);
+  height: 80vh;
+  background-position: top;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe__user {
+  display: grid;
+  margin: 2rem auto;
+  grid-template-columns: 3fr 1fr;
+  gap: 2rem;
+  width: 30%;
+}
+.subscribe__user--email {
+  border-radius: 5rem;
+  padding: 1rem;
+  background-color: rgba(209, 209, 209, 0.2);
+  border: none;
+}
+.subscribe__user--email::placeholder {
+  font-family: "Poppins";
+  color: #fff;
+}
+.subscribe__user--button {
+  padding: 1rem;
+  text-decoration: none;
+  background-color: #9c5e29;
+  border-radius: 1rem;
+  color: #fff;
+  font-size: 1.3rem;
+  text-align: center;
+}

@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.header {
+  background: url(images/Rectangle1.jpg), #9c5e29;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+}
+.nav {
+  background-color: #d1d1d188;
+  border-radius: 1rem;
+  /* border: 0.5px solid #9c5e29; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+  margin: 2rem auto;
+  font-family: "Poppins";
+}
+.nav__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__link {
+  text-decoration: none;
+  padding: 1rem 3rem;
+  color: white;
+  font-size: 1.1rem;
+}
+.nav__link--logo {
+  padding-right: 0.5rem;
+  transform: translateY(0.2rem);
+}
+.header__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  height: 40vh;
+  width: 50vw;
+}
+.heading__primary {
+  color: #fff;
+  font-weight: 300;
+  font-size: 3.5em;
+  text-align: center;
+}
+.header__input {
+  border-radius: 1rem;
+  width: 40%;
+  border: none;
+  padding: 0.5rem;
+}
+.header__button {
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  background-color: #9c5e29;
+  border-radius: 1rem;
+  color: #fff;
+  font-size: 1.3rem;
+}
