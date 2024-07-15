@@ -24,6 +24,7 @@
     "cra-template": "1.2.0",
     "dayjs": "^1.11.11",
     "embla-carousel-react": "^8.1.6",
+    "http-proxy-middleware": "^3.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -55,6 +56,5 @@
   },
   "devDependencies": {
     "axios": "^1.7.2"
-  },
-  "proxy": "https://api.timbu.cloud/v1"
+  }
 }

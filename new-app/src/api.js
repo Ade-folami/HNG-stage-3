@@ -1,9 +1,11 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://api.timbu.cloud/v1",
+  baseURL: "https://timbu-get-all-products.reavdev.workers.dev",
   headers: {
     Authorization: `Bearer ${process.env.REACT_APP_TIMBU_API_KEY}`,
+    Accept: "application/json",
+    organization_id: process.env.REACT_APP_TIMBU_ORGANIZATION_ID,
   },
 });
 
