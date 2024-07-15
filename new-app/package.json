@@ -55,5 +55,6 @@
   },
   "devDependencies": {
     "axios": "^1.7.2"
-  }
+  },
+  "proxy": "https://api.timbu.cloud/v1"
 }
